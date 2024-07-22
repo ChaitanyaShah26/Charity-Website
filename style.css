@@ -1,0 +1,380 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	display: grid;
+	height: 100vh;
+	grid-template-areas: 
+	'header'
+	'main'
+	'footer'
+	;
+	grid-template-columns: 100%;
+	grid-template-rows: 80px auto 40px;
+}
+
+hr {
+	border-color: #342D7E;
+}
+
+nav {
+	z-index: 3;
+	grid-area: header;
+	padding: 10px;
+	width: 100%;
+	background-color: #4863A0;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	position: fixed;
+	box-shadow: 0px 0px 16px #033E3E;
+}
+
+nav h2 {
+	font-family: "Lucida Handwriting";
+	font-size: 110%;
+	color: #C2DFFF;
+}
+
+nav ul {
+	list-style: none;
+	padding: 0px 12px;
+}
+
+nav ul li {
+	float: left;
+	padding: 0 20px;
+}
+
+nav ul li a {
+	text-decoration: none;
+	text-align: center;
+	color: #B7CEEC;
+	padding: 4px;
+}
+
+#donate-button {
+	background-color: #E0FFFF;
+	border: 2px solid #033E3E;
+	border-radius: 20px;
+	padding: 8px 12px;
+	color: #357EC7;
+}
+
+nav ul li a:hover {
+	color: #00FFFF;
+	border-radius: 20px;
+	box-shadow: 0px 0px 10px #9AFEFF;
+}
+
+main {
+	z-index: 1;
+	grid-area: main;
+	padding: 16px;
+	background-color: #B7CEEC;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+}
+
+.hero_heading {
+	background: url(images/hero-bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 10px;
+	font-family: "Times New Roman";
+	font-size: 160%;
+	color: #191970;
+}
+
+.hero_heading h1 {
+	margin-right: auto;
+	margin-left: auto;
+	padding: 10px;
+	width: fit-content;
+	background-color: rgba(235, 244, 250, 0.8);
+	border-radius: 2px;
+	box-shadow: 0px 0px 100px #36454F;
+}
+
+.hero_heading p {
+	background-color: #87CEEB;
+	border-radius: 4px;
+	padding: 8px;
+}
+
+.hero_content {
+	padding: 10px;
+	background-color: #C2DFFF;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+}
+
+#mission_title {
+	padding: 8px;
+	border-radius: 20px;
+	font-family: "Brush Script MT";
+	background-color: #4682B4;
+	color: #0000A0;
+	flex-grow: 1;
+}
+
+#mission {
+	padding: 16px;
+	border-radius: 40px;
+	font-family: "Monotype Corsiva";
+	font-size: 20px;
+	background-color: #95B9C7;
+	color: #0000A0;
+}
+
+.hero_content h4 a {
+	padding: 10px 20px;
+	margin-right: 20px;
+	margin-left: 20px;
+	text-decoration: none;
+	border-radius: 20px;
+	background-color: #0000A5;
+	color: #C2DFFF;
+}
+
+.hero_content h4 a:hover {
+	background-color: #2554C7;
+}
+
+.about-us, .programs, .contact-us, .donation {
+	padding: 10px;
+	background-color: #C2DFFF;
+}
+
+.about-us h1, .programs h1, .contact-us h1, .donation h1 {
+	font-family: "Georgia";
+	color: #2B3856;
+}
+
+.about-us-content {
+	padding: 10px 16px;
+	background-color: #87CEEB;
+	border-radius: 8px;
+	text-align: justify;
+	color: #2E1A47;
+	font-size: 20px;
+	font-family: "Trebuchet MS";
+}
+
+#about-us-mission {
+	text-align: center;
+	font-family: cursive;
+	font-weight: bold;
+	padding-top: 8px;
+}
+
+#our-team {
+	display: flex;
+	flex-wrap: wrap;
+	border-radius: 10px;
+	background-color: rgba(204, 204, 255, 0.5);
+	padding: 8px;
+	justify-content: space-around;
+	align-items: flex-start;
+}
+
+#our-team h4 {
+	width: 100%;
+	font-family: "Times New Roman";
+	font-weight: bold;
+	font-size: 110%;
+}
+
+.team-card {
+	padding: 12px 20px;
+	margin: 10px;
+	background-color: #5865F2;
+	text-align: center;
+	border-radius: 20px;
+	width: 240px;
+	height: fit-content;
+	color: #2E1A47;
+	font-family: "Cambria";
+}
+
+.team-card:hover {
+	transform: scale(1.04);
+}
+
+.program-details {
+	padding: 10px 16px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: flex-start;
+}
+
+.program-cards {
+	padding: 16px;
+	margin: 20px;
+	background-color: #5865F2;
+	width: 280px;
+	height: fit-content;
+	border-radius: 32px;
+	display: flex;
+	flex-direction: column;
+}
+
+.program-cards:hover {
+	transform: scale(1.06);
+}
+
+.program-cards img {
+	border-radius: 16px;
+	width: 100%;
+}
+
+.program-cards h3 {
+	margin: 10px 0px;
+	color: #F8F8FF;
+	font-family: "Cambria";
+}
+
+.program-cards p {
+	margin: 8px 4px;
+	color: #36013F;
+	text-align: justify;
+	font-family: "Calibri";
+}
+
+.contact-form, .donation_form {
+	padding: 10px;
+	background-color: #87CEEB;
+	border-radius: 8px;
+	text-align: left;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-content: center;
+}
+
+.contact-form label, .donation_form label {
+	padding: 8px;
+	font-weight: bold;
+	color: #045F5F;
+}
+
+.contact-form input, .contact-form textarea, .donation_form input, .donation_form textarea {
+	padding: 10px;
+	margin-bottom: 10px;
+	width: 50%;
+	border: 1px solid #033E3E;
+	border-radius: 4px;
+	background-color: #BDEDFF;
+	color: midnightblue;
+	font-size: 16px;
+}
+
+.contact-form textarea, .donation_form textarea {
+	height: 100px;
+	resize: none;
+}
+.contact-form input::placeholder, .contact-form textarea::placeholder, 
+.donation_form input::placeholder, .donation_form textarea::placeholder {
+	font-size: 75%;
+	font-style: italic;
+	color: #6667AB;
+}
+
+.contact-form button, .donation_form button {
+	padding: 10px;
+	margin: 10px;
+	width: fit-content;
+	align-self: center;
+	border: 1.5px solid #033E3E;
+	border-radius: 40px;
+	background-color: #9AFEFF;
+	color: #151B54;
+	font-family: "Georgia";
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.contact-form button:hover, .donation_form button:hover {
+	transform: scale(1.02);
+	box-shadow: 10px 8px 16px #4169E1;
+}
+
+.contact-us-bottom {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding: 4px 20px;
+}
+
+.contact-us-bottom h3 {
+	display: flex;
+	flex-direction: row;
+	padding: 12px;
+	font-family: "Cambria";
+	font-size: 128%;
+	color: #342D7E;
+	text-align: left;
+}
+
+.contact-us-bottom h3 div {
+	margin: 4px;
+}
+
+
+#footnote {
+	color: #5453A6;
+	font-family: fangsong;
+}
+
+footer {
+	z-index: 2;
+	grid-area: footer;
+	background-color: #2B547E;
+	color: #79BAEC;
+	text-align: center;
+	align-self: center;
+}
+
+@media(max-width: 1280px) {
+	nav {
+		flex-direction: column;	
+		padding: 0px;
+	}
+
+	nav ul {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	nav ul li, nav ul li a {
+		padding: 2px;
+	}
+
+	#donate-button {
+		padding: 4px 6px;
+	}
+
+	main {
+		margin-top: 10%;
+	}
+
+	.contact-form input, .contact-form textarea, .donation_form input, .donation_form textarea {
+		width: 80%;
+	}
+
+	.contact-us-bottom {
+		justify-content: flex-start;
+		padding: 8px 8px;
+	}
+
+	.contact-us-bottom h3, .contact-us-bottom h3 div{
+		padding: 0px;
+		margin: 2px;
+	}
+}
