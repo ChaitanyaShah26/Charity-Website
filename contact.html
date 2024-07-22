@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Contact-Smile Makers</title>
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>		
+	<nav>
+		<h2>Smile Makers</h2>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="program.html">Programs</a></li>
+			<li><a href="contact.html" style="font-size: 105%; color: #00FFFF;">Contact</a></li>
+			<li><a href="donate.html" id="donate-button">Donate</a></li>
+		</ul>
+	</nav>
+
+	<main>
+		<div class="contact-us">
+			<h1>Contact Us</h1>
+			<div class="contact-us-content">
+				<form class="contact-form" action="contact-submission.php" method="post">
+					<label for="name">Name : </label>
+					<input type="text" name="name" placeholder="Enter Your Name" required>
+
+					<label for="email">Email : </label>
+					<input type="email" name="email" placeholder="Enter a valid Email Id" required>
+
+					<label for="phone">Contact No. : </label>
+					<input type="tel" name="phone" placeholder="Enter Your Contact No." minlength="10" maxlength="10" required>
+
+					<label for="message">Suggetsion/Message : </label>
+					<textarea name="message" placeholder="Enter your text"></textarea>
+
+					<button type="submit">Submit</button>
+				</form>
+				<hr>
+				<div class="contact-us-bottom">
+					<h3>
+						<div>Phone:</div>
+						<div><small>+91 45312xxxxx<br>+91 98745xxxxx</small></div>
+					</h3>
+					<h3>
+						<div>Email:</div>
+						<div><small>info@smilemakers.org<br>contact@smilemakers.org</small></div>
+					</h3>
+				</div>
+				<p id="footnote" style="text-align: center;"><big>Thank You.<br><strong>Raising Smiles Daily!</strong></big><br><small>Smile Makers</small></p>
+			</div>
+		</div>
+	</main>
+
+	<footer>
+		<p>&copy;2024 Smile Makers.</p>
+	</footer>
+</body>
+
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Donate-Smile Makers</title>
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>		
+	<nav>
+		<h2>Smile Makers</h2>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="program.html">Programs</a></li>
+			<li><a href="contact.html">Contact</a></li>
+			<li><a href="donate.html" id="donate-button"  style="border: 2px solid #E0FFFF; font-size: 105%; color: #033E3E;">Donate</a></li>
+		</ul>
+	</nav>
+
+	<main>
+		<div class="donation">
+			<h1>Donate to Raise a Smile!</h1>
+			<form class="donation_form" action="donation-submission.php" method="post">
+				<label for="name">Name : </label>
+				<input type="text" name="name" placeholder="Enter Your Name" required>
+
+				<label for="email">Email : </label>
+				<input type="email" name="email" placeholder="Enter a valid Email Id" required>
+
+				<label for="phone">Contact No. : </label>
+				<input type="tel" name="phone" placeholder="Enter Your Contact No." minlength="10" maxlength="10" required>
+
+				<label for="amount">Donation Amount(in Rs.) : </label>
+				<input type="number" name="amount" placeholder="Enter Donation Amount" required>
+
+				<label for="note">Note : </label>
+				<textarea name="note" placeholder="Enter a note for your donation"></textarea>
+
+				<button type="submit">Donate Smiles</button>
+			</form>
+			<p id="footnote" style="text-align: center;"><big>Thank You.<br><strong>Raising Smiles Daily!</strong></big><br><small>Smile Makers</small></p>
+		</div>
+	</main>
+
+	<footer>
+		<p>&copy;2024 Smile Makers.</p>
+	</footer>
+</body>
+
+</html>
