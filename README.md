@@ -13,9 +13,9 @@ This repository contains the source code for a responsive charity website. This 
 - [Features](#features)
 - [Structure](#structure)
 - [Technologies Used](#technologies-used)
-- [Screenshots](#screenshots)
 - [Installation](#installation)
 - [Deployment](#deployment)
+- [Screenshots](#screenshots)
 - [License](#license)
 
 ## Features
@@ -43,17 +43,6 @@ The project consists of the following files:
 - **HTML:** For the structure of the website.
 - **CSS:** For styling and layout.
 
-## Screenshots
-
-The screenshots of the website can be viewed in [website-previews](https://github.com/ChaitanyaShah26/Charity-Website/tree/main/website-previews) folder. 
-* Desktop view screenshots : [dekstop-view](https://github.com/ChaitanyaShah26/Charity-Website/tree/main/website-previews/desktop-view)
-* Mobile view screenshots : [mobile-view](https://github.com/ChaitanyaShah26/Charity-Website/tree/main/website-previews/mobile-view)
-<br>
-**Desktop Preview of the entire website:** <br>
-<img src="website-previews/CharityWebsite_desktop-preview.png" alt="Desktop-Preview">
-**Mobile Preview of the entire website:** <br>
-<img src="website-previews/CharityWebsite_mobile-preview.png" alt="Mobile-Preview">
-
 ## Installation
 
 Kindly follow the below steps to install/run my project on your local device:
@@ -73,9 +62,20 @@ Kindly follow the below steps to install/run my project on your local device:
 
 The project is deployed using **GitHub Pages** on the below link.
 ```
-	https://chaitanyashah26.github.io/Charity-Website/
+https://chaitanyashah26.github.io/Charity-Website/
 ```
 [Click Here](https://chaitanyashah26.github.io/Charity-Website/) to open the website.
+
+## Screenshots
+
+The screenshots of the website can be viewed in [website-previews](https://github.com/ChaitanyaShah26/Charity-Website/tree/main/website-previews) folder. 
+* Desktop view screenshots : [dekstop-view](https://github.com/ChaitanyaShah26/Charity-Website/tree/main/website-previews/desktop-view)
+* Mobile view screenshots : [mobile-view](https://github.com/ChaitanyaShah26/Charity-Website/tree/main/website-previews/mobile-view)
+<br>
+<b>Desktop Preview of the entire website:</b> <br>
+<img src="website-previews/CharityWebsite_desktop-preview.png" alt="Desktop-Preview">
+<b>Mobile Preview of the entire website:</b> <br>
+<img src="website-previews/CharityWebsite_mobile-preview.png" alt="Mobile-Preview">
 
 ## License
 
