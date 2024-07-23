@@ -1,3 +1,47 @@
+@font-face {
+	font-family: "Lucida Handwriting";
+	src: url(fonts/LHANDW.TTF);
+}
+@font-face {
+	font-family: "Times New Roman";
+	src: url(fonts/times.ttf);
+}
+@font-face {
+	font-family: "Times New Roman";
+	src: url(fonts/timesbd.ttf);
+	font-weight: bold;
+}
+@font-face {
+	font-family: "Brush Script MT";
+	src: url(fonts/BRUSHSCI.TTF);
+}
+@font-face {
+	font-family: "Monotype Corsiva";
+	src: url(fonts/MTCORSVA.TTF);
+}
+@font-face {
+	font-family: "Georgia";
+	src: url(fonts/georgia.ttf);
+}
+@font-face {
+	font-family: "Georgia";
+	src: url(fonts/georgiab.ttf);
+	font-weight: bold strong;
+}
+@font-face {
+	font-family: "Trebuchet MS";
+	src: url(fonts/trebuc.ttf);
+}
+@font-face {
+	font-family: "Trebuchet MS";
+	src: url(fonts/trebucbd.ttf);
+	font-weight: bold strong;
+}
+@font-face {
+	font-family: "American Typewriter";
+	src: url(fonts/AmericanTypewriterStd-Cond.ttf);
+}
+
 body {
 	margin: 0px;
 	padding: 0px;
@@ -328,7 +372,7 @@ main {
 
 #footnote {
 	color: #5453A6;
-	font-family: fangsong;
+	font-family: "American Typewriter";
 }
 
 footer {
