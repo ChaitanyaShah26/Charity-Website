@@ -7,9 +7,16 @@
 	src: url(fonts/times.ttf);
 }
 @font-face {
-	font-family: "Times New Roman";
-	src: url(fonts/timesbd.ttf);
-	font-weight: bold;
+	font-family: "Cambria";
+	src: url(fonts/cambria.ttc);
+}
+@font-face {
+	font-family: "Calibri";
+	src: url(fonts/calibri.ttf);
+}
+@font-face {
+	font-family: "Comic Sans";
+	src: url(fonts/comic.ttf);
 }
 @font-face {
 	font-family: "Brush Script MT";
@@ -24,18 +31,8 @@
 	src: url(fonts/georgia.ttf);
 }
 @font-face {
-	font-family: "Georgia";
-	src: url(fonts/georgiab.ttf);
-	font-weight: bold strong;
-}
-@font-face {
 	font-family: "Trebuchet MS";
 	src: url(fonts/trebuc.ttf);
-}
-@font-face {
-	font-family: "Trebuchet MS";
-	src: url(fonts/trebucbd.ttf);
-	font-weight: bold strong;
 }
 @font-face {
 	font-family: "American Typewriter";
@@ -211,7 +208,7 @@ main {
 
 #about-us-mission {
 	text-align: center;
-	font-family: cursive;
+	font-family: "Comic Sans";
 	font-weight: bold;
 	padding-top: 8px;
 }
